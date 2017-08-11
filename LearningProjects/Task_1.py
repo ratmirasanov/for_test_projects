@@ -8,4 +8,4 @@ def max_func(argument1, argument2):
     return max_value
 
 
-print("Max value is = {}".format(max_func(5, 10)))
+#print("Max value is = {}".format(max_func(5, 10)))
