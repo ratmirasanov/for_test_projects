@@ -1,10 +1,23 @@
 """Task 5."""
 
 
-def reverse(argument1):
-    """Compute the reversal of a string."""
-
-    return argument1[::-1]
+import task_4
 
 
-#print("The reversal of a string is = {}".format(reverse("Test string.")))
+def translate_func(argument1):
+    """Translate string into "robber's language"."""
+
+    new_str = ""
+    for letter in argument1:
+        if task_4.is_vowel(letter):
+            new_str += letter
+        else:
+            if letter != " ":
+                new_str += letter + "o" + letter
+            else:
+                new_str += " "
+
+    return new_str
+
+
+print("Translated string into \"robber's language\" is: {}".format(translate_func("this is fun")))
