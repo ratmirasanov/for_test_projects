@@ -23,6 +23,7 @@ def multiply_elements(argument1):
     return multiplication_of_elements
 
 
-print("Sum of elements in the list {} is {}".format([3, 4, 4, 1], sum_elements([3, 4, 4, 1])))
-print("Multiplication of elements in the list {} is {}".format([3, 4, 4, 1],
-                                                               multiply_elements([3, 4, 4, 1])))
+print("Sum of elements in the list {} is {}.".format([0, -1, 2456, -123.3, 434112],
+                                                     sum_elements([0, -1, 2456, -123.3, 434112])))
+print("Multiplication of elements in the list {} is {}."
+      .format([0, -1, 2456, -123.3, 434112], multiply_elements([0, -1, 2456, -123.3, 434112])))

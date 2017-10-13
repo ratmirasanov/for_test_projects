@@ -7,4 +7,4 @@ def is_vowel(argument1):
     return argument1.lower() in "aeiouy"
 
 
-#print("Character is vowel? {}".format(is_vowel("b")))
+#print("Character is vowel? {}.".format(is_vowel("A")))

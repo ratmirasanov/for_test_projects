@@ -12,5 +12,5 @@ def is_member(argument1, argument2):
                 return False
 
 
-print("Is argument1 {} in the argument2 {}? {}".format(
+print("Is argument1 {} in the argument2 {}? {}.".format(
     "a", ["a", "b", "x"], is_member("a", ["a", "b", "x"])))

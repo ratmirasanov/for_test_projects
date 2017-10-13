@@ -7,4 +7,4 @@ def reverse(argument1):
     return argument1[::-1]
 
 
-#print("The reversal of a string is = {}".format(reverse("Test string.")))
+#print("The reversal of a string is = {}.".format(reverse("12345678912346789")))

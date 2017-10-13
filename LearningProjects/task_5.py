@@ -20,4 +20,7 @@ def translate_func(argument1):
     return new_str
 
 
-print("Translated string into \"robber's language\" is: {}".format(translate_func("this is fun")))
+print("Translated string into \"robber's language\" is: {}."
+      .format(translate_func("I'm speaking Robber's language!")))
+
+# To Do: Нужно обрабатывать еще спецсимволы.

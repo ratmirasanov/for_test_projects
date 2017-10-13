@@ -10,4 +10,6 @@ def is_palindrome(argument1):
     return argument1 == task_7.reverse(argument1)
 
 
-print("Is the string palindrome? {}".format(is_palindrome("radar")))
+print("Is the string palindrome? {}.".format(is_palindrome("Aerate pet area")))
+
+# To Do: Нужно не обрабатывать пробелы.

@@ -12,4 +12,4 @@ def max_of_three(argument1, argument2, argument3):
     return task_1.max_func(argument3, max_value)
 
 
-print("Max value is = {}".format(max_of_three(15, 3, 2)))
+print("Max value is = {}.".format(max_of_three(15, 3, 2)))
