@@ -8,8 +8,6 @@ def is_member(argument1, argument2):
         for element in argument2:
             if argument1 == element:
                 return True
-            else:
-                return False
 
 
 print("Is argument1 {} in the argument2 {}? {}.".format(
