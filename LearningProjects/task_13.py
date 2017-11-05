@@ -13,4 +13,4 @@ def max_in_list(argument1):
         return max_value
 
 
-print("The max value in the {} list is: {}.".format([5, -4.3, 7, 0], max_in_list([5, -4.3, 7, 0])))
+#print("The max value in the {} list is: {}.".format([5, -4.3, 7, 0], max_in_list([5, -4.3, 7, 0])))

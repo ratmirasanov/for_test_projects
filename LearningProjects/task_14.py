@@ -15,5 +15,5 @@ def mapping_words(argument1):
         return list_of_lengths
 
 
-print("The length of an each string into \"{}\" list is: {}."
-      .format(["test", "Ratmir", "phone"], mapping_words(["test", "Ratmir", "phone"])))
+#print("The length of an each string into \"{}\" list is: {}."
+#      .format(["test", "Ratmir", "phone"], mapping_words(["test", "Ratmir", "phone"])))
