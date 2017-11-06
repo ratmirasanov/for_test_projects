@@ -1,4 +1,4 @@
-"""Task 14."""
+"""Task 16."""
 
 
 import task_14
@@ -18,5 +18,5 @@ def filter_long_words(argument1, number):
         return new_list
 
 
-print("The lengths of the longest words  that are longer than n into \"{}\" list is: {}."
+print("The lengths of the longest words that are longer than n into \"{}\" list is: {}."
       .format(["test", "Ratmir", "phone"], filter_long_words(["test", "Ratmir", "phone"], 4)))
