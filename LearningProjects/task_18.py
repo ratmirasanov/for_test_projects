@@ -13,4 +13,4 @@ def is_pangram(argument1):
         return True
 
 
-print("String is pangram? {}.".format(is_pangram("The quick brown fox jumps over a lazy dog.")))
+print("String is pangram? {}.".format(is_pangram("The quick brown fox jumps over the lazy dog.")))
