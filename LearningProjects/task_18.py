@@ -7,10 +7,10 @@ def is_pangram(argument1):
     if str(argument1):
         alphabet = "abcdefghijklmnopqrstuvwxyz"
         for letter in alphabet:
-            if letter not in argument1:
+            if letter not in argument1.lower():
                 return False
 
         return True
 
 
-print("String is pangram? {}.".format(is_pangram("The quick brown fox jumps over the lazy dog.")))
+print("String is pangram? {}.".format(is_pangram("The quick brown fox jumps over a lazy dog.")))
