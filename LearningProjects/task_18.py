@@ -2,7 +2,7 @@
 
 
 def is_pangram(argument1):
-    """Check that stirng is pangram or not."""
+    """Check that string is pangram or not."""
 
     if str(argument1):
         alphabet = "abcdefghijklmnopqrstuvwxyz"
