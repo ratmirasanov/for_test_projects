@@ -8,12 +8,16 @@ def is_palindrome_list(argument1):
     """Recognize palindromes in the list."""
 
     if isinstance(argument1, list):
+
         new_list = []
+
         for element1 in argument1:
+
             if task_8.is_palindrome(element1):
+
                 new_list.append(element1)
 
-        return new_list
+    return new_list
 
 
 print("The palindromes into \"{}\" list are: {}."

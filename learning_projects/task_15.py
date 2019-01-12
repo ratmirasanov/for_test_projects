@@ -9,6 +9,7 @@ def find_longest_word(argument1):
     """Takes a list of words and returns the length of the longest one."""
 
     if isinstance(argument1, list):
+
         return task_13.max_in_list(task_14.mapping_words(argument1))
 
 

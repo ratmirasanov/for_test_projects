@@ -1,2 +1,1 @@
-selenium==3.11.0
-pylint==1.8.4
+pylint==2.2.2
